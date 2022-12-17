@@ -1,0 +1,17 @@
+footer{text-align: center;background-color: gray;color: white;}
+body{background-color: gray;color: white;}
+nav :hover{ transition: all; color: black;}
+nav :active{transition:all; color: red; cursor: pointer;}
+a :visited{color:violet;}
+
+h1{text-align:center; padding: 20px; font-family: Arial;}
+h1:hover{animation-name: trocadecor; animation-duration: 3s; animation-iteration-count: infinite;}
+
+
+
+
+@keyframes trocadecor {0%{color:red;}50%{color: green;}
+100%{color: blue; animation-duration: 4s; animation-delay: 0.4s; -o-animation-direction: alternate; animation-iteration-count: 1; animation-timing-function: ease; animation-play-state: running; transform: scaleX(2) scaleY(2);}  }
+
+#link:link{color: blue; }
+#link:visited{color: purple;}
